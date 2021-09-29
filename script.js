@@ -1,9 +1,5 @@
-$(".name").ready(function()
-  {
-  $("name").click(function(){
-    $("name").animate({height:"300px"},"slow");
-  });
-  $("name").click(function(){
-    $("name").animate({height:"100px"},"slow");
-  });
+$('.scroll').click(function() {
+  $('body').animate({
+      scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
+  }, 1000);
 });
