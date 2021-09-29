@@ -1,0 +1,9 @@
+$(".name").ready(function()
+  {
+  $("name").click(function(){
+    $("name").animate({height:"300px"},"slow");
+  });
+  $("name").click(function(){
+    $("name").animate({height:"100px"},"slow");
+  });
+});
