@@ -1,5 +1,1 @@
-$('.scroll').click(function() {
-  $('body').animate({
-      scrollTop: eval($('#' + $(this).attr('target')).offset().top - 70)
-  }, 1000);
-});
+<button class="emailReplyButton" onClick="sendEmail(message)"><a href="mailto:baldemarvillarreal91@gmail.com">Reply</a></button>

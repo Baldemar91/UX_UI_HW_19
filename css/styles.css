@@ -70,7 +70,7 @@ a {
 
 @media screen and (max-width: 479px) {
   .justify-content-end{
-    max-width: 100%;
+    max-width: 479px;
    
   }
 }
@@ -125,21 +125,21 @@ a {
     margin-left: 15px;
     margin-right: auto;
     text-align: left;
-   max-width: 100%;
+   max-width: 991px;
     
   }
 }
 
 @media screen and (max-width: 767px) {
   .herospace .name{
-    max-width: 100%;
+    max-width: 767px;
   
   }
 }
 
 @media screen and (max-width: 479px) {
   .herospace .name{
-    max-width: 100%;
+    max-width: 479px;
     
   }
 }
@@ -185,26 +185,28 @@ main {
 
 .title{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
 
 }
 .summary{
-  margin-top: 20px;
+  margin-top: 5px;
   text-align: center;
-  font-size: 18px;
-  max-width: 250px;
+  justify-content: center;
+  font-size: 16px;
+  max-width: 200px;
   margin-left: 30px;
   color: white;
+  font-family: Helvetica, sans-serif;
 }
 
 .view {
   text-align: center;
-  margin-top: 30%;
+  margin-top: 23%;
   font-family: Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight:400;
   text-decoration:none;
  color: white;
@@ -215,7 +217,15 @@ main {
 /*iamge IDs*/
 #tastee{
   width: 25%;
- 
+ padding: 5px;
+}
+#tastee2{
+  width: 25%;
+  padding: 5px;
+}
+#tastee3{
+  width: 25%;
+  padding: 5px;
 }
 #DOL{
   width: 80%;
@@ -229,12 +239,14 @@ main {
 }
 
 
+/*blockSet1*/
 .green {
     height: 492px;
-    width: 900px;
+    width: 880px;
     background: #7BAC7F;
-    float: right;
+    float: left;
     margin-right: 20px;
+    margin-left: -10px;
     margin-top: 2%;
     text-align: center;
     display: flex;
@@ -250,7 +262,7 @@ main {
       margin-left: 15px;
       margin-right: -300px;
       text-align: center;
-     
+     max-width: 991px;
       
     }
   }
@@ -279,16 +291,16 @@ main {
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 300px;
-    left: 5px;
+    height: 250px;
+    width: 250px;
+    left: 10px;
     line-height: 22px;
     max-width: 100%;
     position: absolute;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 100px;
-    width: 300px;
+    top: 150px;
     z-index: 10;
    
 }
@@ -301,81 +313,85 @@ main {
       margin-left: 15px;
       margin-right: auto;
       text-align: center;
-     
+      left: 50px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .yellow {
       max-width: 300px;
-     
+      left: 50px;
     }
   }
   
   @media screen and (max-width: 479px) {
     .yellow  {
       max-width: none;
-     
+      left: 50px;
     }
   }
 
-
+/*blockSet2*/
 .red {
     height: 492px;
-    width: 900px;
+    width: 880px;
     background: #E38F96;
     float: right;
-    margin-right: 20px;
+    margin-right: -30px;
     margin-top: 2%;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+
 @media screen and (max-width: 991px) {
     .red {
       grid-template-areas: "." "." "." ".";
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: auto;
+      margin-right: 525px;
+      margin-left: auto;
       text-align: center;
-      
+      max-width: 991px;
+    
     }
   }
   
   @media screen and (max-width: 767px) {
     .red {
       max-width: 470px;
-     
-      
+     margin-left: auto;
+     margin-right: 955px;
     }
   }
   
   @media screen and (max-width: 479px) {
     .red {
       max-width: none;
-     
+  
     }
   }
 
 .blue {
-    float: right;
+    float: left;
     background-color: #9BC7E9;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 300px;
-    left: -20px;
+    height: 250px;
+    width: 250px;
+    left: -30px;
     line-height: 22px;
     max-width: 100%;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 100px;
-    width: 300px;
+    top: 150px;
     z-index: 10;
    
 }
@@ -387,31 +403,32 @@ main {
       margin-left: 15px;
       margin-right: -315px;
       text-align: center;
-      
+      right: 50px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .blue {
       max-width: 300px;
-      
+      right: 50px;
     }
   }
   
   @media screen and (max-width: 479px) {
     .blue {
       max-width: none;
-     
+      right: 50px;
     }
   }
 
-
+/*blockSet3*/
 .yellow2 {
     height: 492px;
-    width: 900px;
+    width: 880px;
     background: #E9B945;
-    float: right;
+    float: left;
     margin-right: 20px;
+    margin-left: -10px;
     margin-top: 2%;
     text-align: center;
     display: flex;
@@ -453,16 +470,16 @@ main {
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 300px;
-    left: 5px;
+    height: 250px;
+    width: 250px;
+    left: 10px;
     line-height: 22px;
     max-width: 100%;
     position: absolute;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 100px;
-    width: 300px;
+    top: 150px;
     z-index: 10;
 }
 @media screen and (max-width: 991px) {
@@ -473,30 +490,31 @@ main {
       margin-left: 15px;
       margin-right: auto;
       text-align: center;
-      
+      left: 50px;
     }
   }
   
   @media screen and (max-width: 767px) {
     .green2 {
       max-width: 300px;
-      
+      left: 50px;
     }
   }
   
   @media screen and (max-width: 479px) {
     .green2 {
       max-width: none;
-      
+      left: 50px;
     }
   }
 
+  /*blockSet4*/
 .blue2 {
     height: 492px;
-    width: 900px;
+    width: 880px;
     background: #9BC7E9;
     float: right;
-    margin-right: 20px;
+    margin-right: -30px;
     margin-top: 2%;
     text-align: center;
     display: flex;
@@ -508,9 +526,10 @@ main {
       grid-template-areas: "." "." "." ".";
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: auto;
+      margin-right: 525px;
+      margin-left: auto;
       text-align: center;
+      max-width: 991px;
       
     }
   }
@@ -518,7 +537,8 @@ main {
   @media screen and (max-width: 767px) {
     .blue2{
       max-width: 470px;
-     
+      margin-left: auto;
+      margin-right: 955px;
       
     }
   }
@@ -531,23 +551,23 @@ main {
   }
 
 .red2 {
-    float: right;
+    float: left;
     background-color: #E38F96;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     font-family: Helvetica, sans-serif;
-    height: 300px;
-    left: -20px;
+    height: 250px;
+    width: 250px;
+    left: -30px;
     line-height: 22px;
     max-width: 100%;
     position: absolute;
     position: relative;
     right: 0px;
     text-decoration: none;
-    top: 100px;
-    width: 300px;
+    top: 150px;
     z-index: 10;
 }
 @media screen and (max-width: 991px) {
