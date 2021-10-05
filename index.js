@@ -1,1 +1,6 @@
-<button class="emailReplyButton" onClick="sendEmail(message)"><a href="mailto:baldemarvillarreal91@gmail.com">Reply</a></button>
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+btnScrollToTop.addEventListener("click", function () {
+$("html, body").animate({ scrollTop: 0 });
+});
+
+

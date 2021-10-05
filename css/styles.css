@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    min-width: 1440px;
+
 }
 
 /* Nav */
@@ -19,8 +19,31 @@ body {
   background-color: #9bc7e9;
 }
 
+/*
+@media screen and (max-width: 991px) {
+  .nav-item{
+ display: none;
+   
+  }
+  
+}
+
+@media screen and (max-width: 767px) {
+  .nav-item{
+    display: none;
+  
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .nav-item{
+    display: none;
+    
+  }
+} */
+
 .nav {
-    display: flex;
+  
     list-style-type: none;
    justify-content:right;
    padding-right:50px;
@@ -48,32 +71,32 @@ a {
     
 }
 
+
+
+
 @media screen and (max-width: 991px) {
-  .justify-content-end{
-    grid-template-areas: "." "." "." ".";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+  .justify-content-end {
     margin-left: 15px;
-    margin-right: 100px;
-    text-align: center;
-    max-width: 991px;
-    
+    margin-right: 15px;
+     padding-left: 20px;
+     padding-right: 20px;
+   
   }
 }
 
 @media screen and (max-width: 767px) {
   .justify-content-end{
-    max-width: 460px;
+    max-width: 100%;
   
   }
 }
 
 @media screen and (max-width: 479px) {
   .justify-content-end{
-    max-width: 479px;
-   
+    max-width: 100%;
+    
   }
-}
+} 
 
 
 
@@ -81,8 +104,7 @@ a {
 /* hero space */
 
 .herospace {
-    align-items: flex-start;
-    background-attachment: fixed;
+  height: 80vh;
     background-color: #9bc7e9;
     background-position: 50% 50%;
     background-repeat: no-repeat no-repeat;
@@ -94,8 +116,6 @@ a {
     flex-wrap: nowrap;
     float: none;
     font-family: "Helvetica Neue",Helvetica,sans-serif;
-    height: 70vh;
-    justify-content: right;
     line-height: 22px;
     margin: auto;
     max-width: 100%;
@@ -105,6 +125,31 @@ a {
     position: static;
     text-align: center;
     z-index: 0;
+}
+
+@media screen and (max-width: 991px) {
+  
+  .herospace {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .herospace {
+    padding-left: 16px;
+    padding-right: 16px;
+  
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .herospace {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    
+  }
 }
 
 .name {
@@ -117,32 +162,22 @@ a {
    
 }
 
-@media screen and (max-width: 991px) {
-  .herospace .name{
-    grid-template-areas: "." "." "." ".";
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
-    margin-left: 15px;
-    margin-right: auto;
-    text-align: left;
-   max-width: 991px;
-    
-  }
+#uxDesigner{
+  max-width: 50%;
+  float: right;
+  margin-right: -30px;
+  padding: 5px 5px 5px 5px;
 }
 
-@media screen and (max-width: 767px) {
-  .herospace .name{
-    max-width: 767px;
+@media screen and (max-width: 991px) {
+  
+  #uxDesigner {
+  margin-top: 100px;
   
   }
 }
 
-@media screen and (max-width: 479px) {
-  .herospace .name{
-    max-width: 479px;
-    
-  }
-}
+
 
 
   
@@ -160,6 +195,9 @@ main {
     flex-direction: row;
     position: relative;
     justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    
 }
 
 .blockset2 {
@@ -252,84 +290,98 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 0;
     
 }
-@media screen and (max-width: 991px) {
-    .green{
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -300px;
-      text-align: center;
-     max-width: 991px;
-      
-    }
-  }
-  
-  @media screen and (max-width: 767px) {
-    .green{
-      max-width: 470px;
+
+
+
+@media screen and (max-width: 767px) {
+  .green {
+    position: relative;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     
-    }
   }
-  
-  @media screen and (max-width: 479px) {
-    .green{
-      max-width: 100%;
-      
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .green{
+   
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
+}
 
 
 
 .yellow {
     float: right;
     background-color: #E9B945;
-    bottom: 0;
+    bottom: 19px;
     box-sizing: border-box;
-    cursor: pointer;
-    display: block;
-    font-family: Helvetica, sans-serif;
+    float: right;
     height: 250px;
     width: 250px;
     left: 10px;
     line-height: 22px;
-    max-width: 100%;
-    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    opacity: 1;
     position: relative;
-    right: 0px;
-    text-decoration: none;
-    top: 150px;
-    z-index: 10;
+    right: 262px;
+    top: 146px;
+    z-index: 2;
    
 }
 
+
+
 @media screen and (max-width: 991px) {
-    .yellow  {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: auto;
-      text-align: center;
-      left: 50px;
-    }
-  }
+  .yellow {
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: right;
   
-  @media screen and (max-width: 767px) {
-    .yellow {
-      max-width: 300px;
-      left: 50px;
-    }
+   
   }
+  .title{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: white;
   
-  @media screen and (max-width: 479px) {
-    .yellow  {
-      max-width: none;
-      left: 50px;
-    }
   }
+}
+
+@media screen and (max-width: 767px) {
+  .yellow{
+    max-width: 100%;
+    display: block;
+    float: right;
+   left: -7px;
+   height: 100px;
+   width: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .yellow{
+    display: block;
+    float: right; 
+    height: 100px;
+    width: 100px;
+  }
+}
+
+
+
 
 /*blockSet2*/
 .red {
@@ -347,33 +399,23 @@ main {
 
 
 
-@media screen and (max-width: 991px) {
-    .red {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-right: 525px;
-      margin-left: auto;
-      text-align: center;
-      max-width: 991px;
+@media screen and (max-width: 767px) {
+  .red {
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .red {
     
-    }
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 767px) {
-    .red {
-      max-width: 470px;
-     margin-left: auto;
-     margin-right: 955px;
-    }
-  }
-  
-  @media screen and (max-width: 479px) {
-    .red {
-      max-width: none;
-  
-    }
-  }
+}
 
 .blue {
     float: left;
@@ -396,30 +438,35 @@ main {
    
 }
 @media screen and (max-width: 991px) {
-    .blue {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -315px;
-      text-align: center;
-      right: 50px;
-    }
-  }
+  .blue  {
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: left;
   
-  @media screen and (max-width: 767px) {
-    .blue {
-      max-width: 300px;
-      right: 50px;
-    }
+   
   }
-  
-  @media screen and (max-width: 479px) {
-    .blue {
-      max-width: none;
-      right: 50px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .blue {
+    max-width: 100%;
+    display: block;
+    float: left;
+   left: 7px;
+   height: 100px;
+   width: 100px;
   }
+}
+
+@media screen and (max-width: 479px) {
+  .blue {
+    display: block;
+    float: left; 
+    height: 100px;
+    width: 100px;
+  }
+}
 
 /*blockSet3*/
 .yellow2 {
@@ -435,32 +482,24 @@ main {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 991px) {
-    .yellow2 {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -300px;
-      text-align: center;
-      
-      
-    }
+
+@media screen and (max-width: 767px) {
+  .yellow2 {
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .yellow2{
-      max-width: 470px;
-      
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .yellow2{
+    
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 479px) {
-    .yellow2{
-      max-width: none;
-     
-    }
-  }
+}
 
 .green2 {
     float: right;
@@ -480,33 +519,40 @@ main {
     right: 0px;
     text-decoration: none;
     top: 150px;
-    z-index: 10;
+    z-index: 1;
 }
+
 @media screen and (max-width: 991px) {
-    .green2 {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: auto;
-      text-align: center;
-      left: 50px;
-    }
+  .green2 {
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: right;
+   
+   
   }
-  
-  @media screen and (max-width: 767px) {
-    .green2 {
-      max-width: 300px;
-      left: 50px;
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .green2 {
+    max-width: 100%;
+    display: block;
+    float: right;
+   left: -7px;
+   height: 100px;
+   width: 100px;
+   
   }
-  
-  @media screen and (max-width: 479px) {
-    .green2 {
-      max-width: none;
-      left: 50px;
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .green2 {
+    display: block;
+    float: right; 
+    height: 100px;
+    width: 100px;
   }
+}
 
   /*blockSet4*/
 .blue2 {
@@ -521,34 +567,23 @@ main {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 991px) {
-    .blue2{
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-right: 525px;
-      margin-left: auto;
-      text-align: center;
-      max-width: 991px;
-      
-    }
+@media screen and (max-width: 767px) {
+  .blue2{
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .blue2{
-      max-width: 470px;
-      margin-left: auto;
-      margin-right: 955px;
-      
-    }
+}
+
+@media screen and (max-width: 479px) {
+  .blue2{
+    
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  @media screen and (max-width: 479px) {
-    .blue2 {
-      max-width: none;
-      
-    }
-  }
+}
 
 .red2 {
     float: left;
@@ -570,31 +605,38 @@ main {
     top: 150px;
     z-index: 10;
 }
+
 @media screen and (max-width: 991px) {
-    .red2  {
-      grid-template-areas: "." "." "." ".";
-      grid-template-columns: 1fr;
-      grid-template-rows: auto auto auto auto;
-      margin-left: 15px;
-      margin-right: -315px;
-      text-align: center;
-      
-    }
-  }
+  .red2  {
+   max-width: 100%;
+   display: block;
+   position: relative;
+   float: left;
   
-  @media screen and (max-width: 767px) {
-    .red2  {
-      max-width: 300px;
-     
-    }
+   
   }
-  
-  @media screen and (max-width: 479px) {
-    .red2  {
-      max-width: none;
-      
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .red2 {
+    max-width: 100%;
+    display: block;
+    float: left;
+   left: 7px;
+   height: 100px;
+   width: 100px;
   }
+}
+
+@media screen and (max-width: 479px) {
+  .red2  {
+    display: block;
+    float: left; 
+    height: 100px;
+    width: 100px;
+  }
+}
+
 
 /* footer */
 
@@ -608,7 +650,7 @@ main {
     max-width: 1200px;
     position: relative;
     z-index: 6;
-    margin-top: 5%;
+    margin-top: 8%;
   }
   
   .float-right {
@@ -670,13 +712,13 @@ main {
       margin-right: 100px;
       text-align: center;
       max-width: 900px;
-      
+      margin-top: 15%;
     }
   }
   
   @media screen and (max-width: 767px) {
     .container-10.w-container {
-      max-width: 325px;
+      max-width: 767px;
     
     }
   }
@@ -693,8 +735,7 @@ main {
       grid-template-areas: "." "." "." ".";
       grid-template-columns: 1fr;
       grid-template-rows: auto auto auto auto;
-      margin-left: 150px;
-      margin-right: -15px;
+      margin-left: 90px;
       text-align: center;
       max-width: 900px;
    
@@ -714,3 +755,26 @@ main {
      
     }
   }
+
+  #btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7BAC7F;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) ;
+    color:#ffffff;
+    outline: none;
+    cursor: pointer;
+    z-index: 10;
+    border: none;
+  }
+
+  #btnScrollToTop:active 
+  {
+    background-color: #4c6b4f;
+  }
+
+
