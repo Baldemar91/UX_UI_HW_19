@@ -187,14 +187,36 @@ a {
 /* Main */
 
 /* breadCrumbs nav */
-#breadCrumbs :hover{
- color: #E9B945;
-}
 
 #breadCrumbs {
   padding-top:20px;
- 
+  margin-left: 25px;
 }
+
+#bread {
+  color: #002B54;
+}
+#bread1 
+{
+  color: #002B54;
+}
+#bread2 
+{
+  color: #002B54;
+}
+#bread3 
+{
+  color: #002B54;
+}
+#bread4
+{
+  color: #002B54;
+}
+
+#breadCrumbs :hover{
+  color: rgb(85, 124, 255);
+ }
+
 @media screen and (max-width: 767px) {
   #breadCrumbs {
     margin-bottom: 100px;
