@@ -161,12 +161,16 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
+.bv{
+  font-size: 45px;
+}
 
 #uxDesigner{
   max-width: 50%;
   float: right;
   margin-right: -30px;
   padding: 5px 5px 5px 5px;
+  
 }
 
 @media screen and (max-width: 991px) {
@@ -223,32 +227,40 @@ main {
 
 .title{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 22px;
   color: white;
+  font-weight: 600;
 
 }
 .summary{
-  margin-top: 5px;
+  margin-top: -15px;
   text-align: center;
   justify-content: center;
   font-size: 16px;
+  font-weight: 600;
   max-width: 200px;
-  margin-left: 30px;
+  margin-left: 25px;
   color: white;
   font-family: Helvetica, sans-serif;
 }
 
 .view {
   text-align: center;
-  margin-top: 23%;
+  margin-top: 15%;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-weight:400;
   text-decoration:none;
- color: white;
+  color: white;
+  font-weight: 500;
 }
+
+.viewthis :hover{
+  color: white;
+}
+
 
 
 
@@ -256,24 +268,30 @@ main {
 #tastee{
   width: 25%;
  padding: 5px;
+ border-radius: 10px;
 }
 #tastee2{
   width: 25%;
   padding: 5px;
+  border-radius: 10px;
 }
 #tastee3{
   width: 25%;
   padding: 5px;
+  border-radius: 10px;
 }
 #DOL{
   width: 80%;
+  border-radius: 10px;
 }
 #foodbank{
   width: 80%;
+  border-radius: 10px;
 }
 
 #sideprojects{
   width: 75%;
+  border-radius: 10px;
 }
 
 
@@ -291,6 +309,7 @@ main {
     align-items: center;
     justify-content: center;
     z-index: 0;
+    border-radius: 20px;
     
 }
 
@@ -336,8 +355,10 @@ main {
     right: 262px;
     top: 146px;
     z-index: 2;
-   
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
 }
+
 
 
 
@@ -352,13 +373,15 @@ main {
   }
   .title{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
-    color: white;
+    color:black;
   
   }
+
 }
+
 
 @media screen and (max-width: 767px) {
   .yellow{
@@ -368,6 +391,12 @@ main {
    left: -7px;
    height: 100px;
    width: 100px;
+  }
+  .view{
+    display: none;
+  }
+  .summary{
+    display: none;
   }
 }
 
@@ -387,7 +416,7 @@ main {
 .red {
     height: 492px;
     width: 880px;
-    background: #E38F96;
+    background: #9BC7E9;
     float: right;
     margin-right: -30px;
     margin-top: 2%;
@@ -395,6 +424,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 
@@ -419,7 +449,7 @@ main {
 
 .blue {
     float: left;
-    background-color: #9BC7E9;
+    background-color: #E38F96;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -435,6 +465,8 @@ main {
     text-decoration: none;
     top: 150px;
     z-index: 10;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
    
 }
 @media screen and (max-width: 991px) {
@@ -481,6 +513,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -520,6 +553,8 @@ main {
     text-decoration: none;
     top: 150px;
     z-index: 1;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
 }
 
 @media screen and (max-width: 991px) {
@@ -558,7 +593,7 @@ main {
 .blue2 {
     height: 492px;
     width: 880px;
-    background: #9BC7E9;
+    background:  #E38F96;
     float: right;
     margin-right: -30px;
     margin-top: 2%;
@@ -566,6 +601,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 @media screen and (max-width: 767px) {
   .blue2{
@@ -587,7 +623,7 @@ main {
 
 .red2 {
     float: left;
-    background-color: #E38F96;
+    background-color: #9BC7E9 ;
     bottom: 0;
     box-sizing: border-box;
     cursor: pointer;
@@ -604,6 +640,8 @@ main {
     text-decoration: none;
     top: 150px;
     z-index: 10;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
 }
 
 @media screen and (max-width: 991px) {
@@ -763,9 +801,9 @@ main {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #7BAC7F;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) ;
-    color:#ffffff;
+    color:black;
     outline: none;
     cursor: pointer;
     z-index: 10;
@@ -774,7 +812,8 @@ main {
 
   #btnScrollToTop:active 
   {
-    background-color: #4c6b4f;
+    background-color: black;
+    color: white;
   }
 
 

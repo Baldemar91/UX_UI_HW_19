@@ -16,7 +16,7 @@ body {
 
 /* Nav */
 #color{
-  background-color: #E9B945;
+  background-color: #002B54;
  
 }
 
@@ -65,7 +65,7 @@ a {
 
 .nav-link {
     position: relative;
-    color: black;
+    color: white;
     padding: 5px;
     margin-top: 15px;
     font-family: Helvetica, sans-serif;
@@ -107,7 +107,7 @@ a {
 
 .herospace {
   height: 70vh;
-    background-color: #E9B945;
+    background-color: #002B54;
     background-position: 50% 50%;
     background-repeat: no-repeat no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@ a {
     text-align: center;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   
+   color: white;
 }
 
 .lead{

@@ -153,7 +153,9 @@ div.column-23.w-col.w-col-6 {
   padding-right: 0;
   position: relative;
   width: 40%;
-}
+  }
+
+
 
 
 @media screen and (max-width: 991px) {
@@ -200,6 +202,7 @@ img.image-86 {
   max-width: 70%;
   opacity: 1;
   padding-top: 110px;
+ 
   
 }
 
@@ -841,9 +844,9 @@ div#resume.section div#w-node-dac044b7-be90-60f3-414d-4224828ffe12-adaf0624 h3 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #7BAC7F;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25) ;
-  color:#ffffff;
+  color:black;
   outline: none;
   cursor: pointer;
   z-index: 10;
