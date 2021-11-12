@@ -366,7 +366,7 @@ main {
 
 
 
-/*The Problem*/
+/*Talking to Users*/
 .yellow2 {
   height: 176px;
   width: 600px;
@@ -457,7 +457,8 @@ main {
 /*The Process*/
 .blue2 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -493,7 +494,7 @@ main {
 #theProcess{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
  
 }
@@ -531,7 +532,8 @@ main {
 /*text Below Insights*/
 .blue3 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -592,7 +594,8 @@ main {
 /*Competitors*/
 .blue4 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -608,7 +611,7 @@ main {
 #competitors{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
 
 }
@@ -665,7 +668,8 @@ main {
 /*The Redesign*/
 .blue5 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 10px;
   margin-right: 20px;
@@ -682,7 +686,7 @@ main {
 #theRedesign{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
 
 }
@@ -756,7 +760,8 @@ main {
 /*Findings*/
 .blue7 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 10px;
   margin-right: 20px;
@@ -773,7 +778,7 @@ main {
 #findings{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: Normal;
   padding-bottom: 10px;
 
 }
@@ -826,7 +831,8 @@ main {
 /*Iterations*/
 .blue8 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -843,7 +849,7 @@ main {
 #iterations{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
 
 }
@@ -914,7 +920,8 @@ main {
 /*Results*/
 .blue10 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -931,7 +938,7 @@ main {
 #results{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
 
 }
@@ -1021,7 +1028,8 @@ main {
 /* conclusion */
 .blue12{
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
@@ -1038,7 +1046,7 @@ main {
 #conclusion{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight: normal;
   padding-bottom: 10px;
 
 }
