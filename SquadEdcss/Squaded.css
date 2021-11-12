@@ -316,7 +316,7 @@ main {
 }
 
 
-/*My Contributions*/
+/*My Contributions
 .red {
   height: 176px;
   width: 880px;
@@ -336,7 +336,7 @@ main {
 #headerCONT{
  font-size: 25px;
  font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: bold;
+ font-weight:700;
  padding-bottom: 10px;
 
 
@@ -360,7 +360,7 @@ main {
     padding-left: 0;
     padding-right: 0;
   }
-}
+} */
 
 
 
@@ -384,7 +384,7 @@ main {
 #theProblem{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
  
 }

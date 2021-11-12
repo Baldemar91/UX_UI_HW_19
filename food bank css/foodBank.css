@@ -314,7 +314,7 @@ main {
 #headerCONT{
  font-size: 25px;
  font-family: Georgia, 'Times New Roman', Times, serif;
- font-weight: bold;
+ font-weight:normal;
  padding-bottom: 10px;
 
 
@@ -362,7 +362,7 @@ main {
 #theProblem{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
  
 }
@@ -468,7 +468,7 @@ main {
 #theProcess{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
  
 }
@@ -583,7 +583,7 @@ main {
 #competitors{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
@@ -657,7 +657,7 @@ main {
 #theRedesign{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
@@ -748,7 +748,7 @@ main {
 #findings{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
@@ -818,7 +818,7 @@ main {
 #iterations{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
@@ -906,7 +906,7 @@ main {
 #results{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
@@ -1013,7 +1013,7 @@ main {
 #conclusion{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-weight:normal;
   padding-bottom: 10px;
 
 }
