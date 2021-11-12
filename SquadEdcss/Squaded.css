@@ -560,33 +560,7 @@ main {
 
   
 }
-.prioritize{
-  width: 60%;
-  margin-left: 20%;
-}
 
-@media screen and (max-width: 479px) {
-  .prioritize{
-    margin-top: 30px;
-    margin-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  
-}
-
-@media screen and (max-width: 767px) {
-  .prioritize{
-    margin-top: 125px;
-    margin-left: 30px;
-   margin-right: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-   width: 90%;
-  }
-  
-}
 
 /*Competitors*/
 .blue4 {
@@ -594,10 +568,10 @@ main {
   width: 600px;
   line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 40px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -662,7 +636,7 @@ main {
   }
 }
 
-/*The Redesign*/
+/*The making of squad Ed*/
 .blue5 {
   height: 176px;
   width: 600px;
@@ -671,7 +645,7 @@ main {
   margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 20px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -708,14 +682,43 @@ main {
   }
 }
 
+#userflow{
+  margin-bottom: 30px;
+  margin-left: 8%;
+  width: 80%;
+}
+
+@media screen and (max-width: 479px) {
+  #userflow{
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  
+}
+
+@media screen and (max-width: 767px) {
+  #userflow{
+    margin-top: 125px;
+    margin-left: 30px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+   width: 90%;
+  }
+  
+}
 
 
-/*RWD Low fidelity images*/
+
+/*storyboard*/
 .blue6 {
   height: 400x;
   width: 880px;
   float: left;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-right: 20px;
   margin-left: -10px;
   margin-bottom: 30px;;
@@ -727,7 +730,9 @@ main {
 }
 
 #low{
-  width: 95%;
+  width: 120%;
+  margin-top: 20px;
+  margin-left: -80px;
 }
 #low1{
   width: 100%;
