@@ -256,7 +256,8 @@ main {
 /*Intro*/
 .intro {
     height: 176px;
-    width: 880px;
+    width: 600px;
+    line-height: 1.8;
     float: left;
     margin-right: 20px;
     margin-left: -10px;
@@ -267,7 +268,7 @@ main {
     justify-content: center;
     z-index: 0;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 
 }
 
@@ -297,11 +298,12 @@ main {
 /*My Contributions*/
 .red {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-right: 20px;
   margin-left: -10px;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -346,7 +348,9 @@ main {
 /*The Problem*/
 .yellow2 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
+  margin-top: 20px;
   float: left;
   margin-bottom: 30px;
   margin-right: 20px;
@@ -420,7 +424,7 @@ main {
 
 @media screen and (max-width: 479px) {
   .sawebsite{
-    margin-top: 160px;
+    margin-top: 120px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -432,12 +436,13 @@ main {
 /*The Process*/
 .blue2 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 40px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -453,13 +458,13 @@ main {
     padding-left: 20px;
     padding-right: 20px;
    
+   
   }
 }
 
 @media screen and (max-width: 479px) {
   .blue2{
     margin-top: 40px;
-    margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
   }
@@ -482,11 +487,11 @@ main {
 @media screen and (max-width: 767px) {
   .stickynotes{
     margin-top: 40px;
-    margin-left: 15px;
+    margin-left: -30px;
    margin-right: 15px;
     padding-left: 5px;
     padding-right: 5px;
-   
+   width: 120%;
   }
 
   
@@ -494,8 +499,8 @@ main {
 
 @media screen and (max-width: 479px) {
   .stickynotes{
-    margin-top: 160px;
-    margin-bottom: 0;
+    margin-top: 100px;
+    margin-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -506,10 +511,12 @@ main {
 /*text Below Insights*/
 .blue3 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
+  margin-bottom: 30px;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -543,10 +550,11 @@ main {
 
 @media screen and (max-width: 479px) {
   .prioritize{
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+   
   }
 
   
@@ -555,11 +563,11 @@ main {
 @media screen and (max-width: 767px) {
   .prioritize{
     margin-top: 125px;
-    margin-left: 30px;
+    margin-left: 5px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
-   width: 90%;
+   width: 100%;
   }
   
 }
@@ -567,12 +575,13 @@ main {
 /*Competitors*/
 .blue4 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 60px;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -607,12 +616,12 @@ main {
 
 @media screen and (max-width: 767px) {
   #analysis{
-    margin-top: 125px;
-    margin-left: 30px;
+    margin-top: 170px;
+    margin-left: 2px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
-   width: 90%;
+   width: 100%;
   }
   
 }
@@ -640,12 +649,13 @@ main {
 /*The Redesign*/
 .blue5 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 80px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -731,12 +741,13 @@ main {
 /*Findings*/
 .blue7 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 80px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -755,7 +766,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .blue7 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 15px;
    margin-right: 15px;
     padding-left: 20px;
@@ -767,7 +778,7 @@ main {
 @media screen and (max-width: 479px) {
   .blue7  {
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -779,10 +790,11 @@ main {
   width: 60%;
   padding-bottom: 20px;
 }
+
 @media screen and (max-width: 767px) {
   .test {
-    margin-top: 160px;
-    margin-left: -60px;
+    margin-top: 180px;
+    margin-left: -40px;
    margin-right: 15px;
     padding-left: 5px;
     padding-right: 5px;
@@ -801,12 +813,13 @@ main {
 /*Iterations*/
 .blue8 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 80px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -889,12 +902,13 @@ main {
 /*Results*/
 .blue10 {
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 80px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -920,6 +934,7 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+
    
   }
 }
@@ -927,7 +942,7 @@ main {
 @media screen and (max-width: 479px) {
   .blue10{
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -987,7 +1002,7 @@ main {
 @media screen and (max-width: 479px) {
   .blue11{
     margin-top: 250px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -996,12 +1011,13 @@ main {
 /* conclusion */
 .blue12{
   height: 176px;
-  width: 880px;
+  width: 600px;
+  line-height: 1.8;
   float: left;
   margin-top: 50px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 140px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -1029,7 +1045,7 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
    
   }
 }
@@ -1037,7 +1053,29 @@ main {
 @media screen and (max-width: 479px) {
   .blue12{
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 90px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #ourjournery{
+    margin-top: 0;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #ourjournery{
+    margin-top: 50px;
+    margin-bottom: 10px;
     padding-left: 0;
     padding-right: 0;
     
