@@ -757,9 +757,10 @@ main {
     padding-right: 0;
   }
 }
+/*Sketches*/
 
 
-/*Findings*/
+/*Prototype*/
 .blue7 {
   height: 176px;
   width: 600px;
@@ -768,7 +769,7 @@ main {
   margin-top: 10px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 60px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -777,7 +778,7 @@ main {
 }
 
 
-#findings{
+#sketches{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: Normal;
@@ -805,7 +806,7 @@ main {
   }
 }
 
-/*Usabiliity testing chart*/
+/*sketches*/
 #testing{
   margin-left: 18%;
   width: 60%;
@@ -830,16 +831,16 @@ main {
     padding-right: 0;
   }
 }
-/*Iterations*/
+/*big Idea*/
 .blue8 {
   height: 176px;
   width: 600px;
   line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: 60px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -848,7 +849,7 @@ main {
 }
 
 
-#iterations{
+#bigidea{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: normal;
@@ -876,7 +877,7 @@ main {
   }
 }
 
-/* Mid Fidelity pics*/
+/* big idea prioritization pic*/
 .blue9 {
   height: 400x;
   width: 880px;
@@ -892,11 +893,15 @@ main {
   font-size: 20px;
 }
 
-#mid1{
-  width: 95%;
-}
-#mid2{
+#big1{
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#big2{
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 767px) {
@@ -919,13 +924,13 @@ main {
   }
 }
 
-/*Results*/
+/*iterate X3*/
 .blue10 {
   height: 176px;
   width: 600px;
   line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
   margin-bottom: 30px;;
@@ -967,7 +972,7 @@ main {
   }
 }
 
-/* High Fidelity Pics*/
+/* high fidelity*/
 .blue11{
   height: 400x;
   width: 880px;
@@ -983,8 +988,16 @@ main {
   font-size: 20px;
 }
 
-#high1{
+#mid1{
   width: 95%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#mid2{
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #highfidelityprototype{
