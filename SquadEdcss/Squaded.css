@@ -309,8 +309,8 @@ main {
 
 @media screen and (max-width: 479px) {
   .intro{
-    margin-top: 60px;
-    margin-bottom: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
   }
@@ -401,21 +401,22 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 20px;
    
   }
 }
 
 @media screen and (max-width: 479px) {
   .yellow2{
-    margin-top: 160px;
-    margin-bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 30px;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 
-/*The Process*/
+/*Collecting Insights*/
 .blue2 {
   height: 176px;
   width: 600px;
@@ -445,7 +446,7 @@ main {
 
 @media screen and (max-width: 479px) {
   .blue2{
-    margin-top: 40px;
+    margin-top: 230px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -508,7 +509,7 @@ main {
    margin-right: 15px;
     padding-left: 5px;
     padding-right: 5px;
-
+   
   }
 
   
@@ -516,10 +517,11 @@ main {
 
 @media screen and (max-width: 479px) {
   .Affinity{
-    margin-top: 160px;
+    margin-top: 20px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
+    
   }
 
   
@@ -595,7 +597,7 @@ main {
 
 @media screen and (max-width: 479px) {
   #analysis{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -607,11 +609,11 @@ main {
 @media screen and (max-width: 767px) {
   #analysis{
     margin-top: 125px;
-    margin-left: 30px;
+    margin-left: 2px;
    margin-right: 15px;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-right: 20px;
-   width: 90%;
+   width: 100%;
   }
   
 }
@@ -629,7 +631,7 @@ main {
 
 @media screen and (max-width: 479px) {
   .blue4 {
-    margin-top: 40px;
+    margin-top: 120px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -664,7 +666,7 @@ main {
 
 @media screen and (max-width: 767px) {
   .blue5  {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 15px;
    margin-right: 15px;
     padding-left: 20px;
@@ -675,7 +677,7 @@ main {
 
 @media screen and (max-width: 479px) {
   .blue5  {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -701,12 +703,12 @@ main {
 
 @media screen and (max-width: 767px) {
   #userflow{
-    margin-top: 125px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-left: 2px;
    margin-right: 15px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-right: 20px;
-   width: 90%;
+   width: 100%;
   }
   
 }
@@ -733,18 +735,18 @@ main {
   width: 120%;
   margin-top: 20px;
   margin-left: -80px;
-}
-#low1{
   width: 100%;
 }
+
 
 @media screen and (max-width: 767px) {
   .blue6   {
     margin-top: 180px;
-    margin-left: 15px;
+    margin-left: 80px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    width: 100%;
    
   }
 }
@@ -757,7 +759,7 @@ main {
     padding-right: 0;
   }
 }
-/*Sketches*/
+
 
 
 /*Prototype*/
@@ -982,7 +984,7 @@ main {
 @media screen and (max-width: 767px) {
   .blue10 {
     margin-top: 100px;
-    margin-left: 15px;
+    margin-left: 25px;
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -1027,23 +1029,6 @@ main {
   margin-bottom: 30px;
 }
 
-#highfidelityprototype{
-  text-decoration: none;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  margin-left: 1%;
-  position: relative;
-  padding-top: 5px;
-  margin-bottom: 20px ;
-  font-size: 20px;
-  height: 40px;
-  width: 300px;
-  background: rgb(30, 126, 21);
-  border-radius: 10px;
-  filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
-}
 
 
 
@@ -1060,23 +1045,23 @@ main {
 
 @media screen and (max-width: 479px) {
   .blue11{
-    margin-top: 250px;
+    margin-top: 1000px;
     margin-bottom: 0;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* conclusion */
+/* Highfidelity*/
 .blue12{
   height: 176px;
   width: 600px;
   line-height: 1.8;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-right: 20px;
   margin-left: -10px;
-  margin-bottom: 30px;;
+  margin-bottom: -200px;;
   text-align: left;
   align-items: center;
   justify-content: center;
@@ -1085,7 +1070,7 @@ main {
 }
 
 
-#conclusion{
+#hifipro{
   font-size: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: normal;
@@ -1093,8 +1078,77 @@ main {
 
 }
 
-#ourjournery{
+#hifi{
+  margin-top: -60px;
   width: 95%;
+}
+
+#mobilehifi{
+  margin-left: 25px;
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  #hifi {
+    margin-top: -200px;
+    margin-left: 10px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #hifi {
+    margin-top: -1250px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #mobilehifi{
+    margin-top: 1px;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #mobilehifi{
+    margin-top: -500px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}
+
+/*button*/
+#highfidelityprototype{
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  margin-left: 1%;
+  position: relative;
+  padding-top: 5px;
+  margin-bottom: 20px ;
+  font-size: 20px;
+  height: 40px;
+  width: 300px;
+  background: #002B54;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
 }
 
 @media screen and (max-width: 767px) {
@@ -1104,7 +1158,7 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
    
   }
 }
@@ -1112,7 +1166,80 @@ main {
 @media screen and (max-width: 479px) {
   .blue12{
     margin-top: 50px;
-    margin-bottom: 300px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}
+
+.blue13{
+  height: 176px;
+  width: 600px;
+  line-height: 1.8;
+  float: left;
+  margin-top: 50px;
+  margin-right: 20px;
+  margin-left: -10px;
+  margin-bottom: -300px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  font-size: 20px;
+}
+
+#next{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+}
+#conclude{
+  width: 95%;
+  margin-top: 70px;
+  margin-bottom: 20px;
+
+}
+@media screen and (max-width: 767px) {
+  #conclude{
+    margin-top: 1px;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #conclude{
+    margin-top: -750px;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .blue13{
+    margin-top: 1px;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: -100px;
+   
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .blue13{
+    margin-top: 50px;
+    margin-bottom: -100px;
     padding-left: 0;
     padding-right: 0;
     
