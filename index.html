@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="https://unpkg.com/scrollreveal"></script>
      
@@ -52,8 +53,8 @@
                     <div class="container">
                         <div class="name">
                           <div><img id="uxDesigner" src="images/Uxdesinger.png" alt=""> </div> 
-                      <h1 class="bv">Baldemar Villarreal</h1>
-                      <p class="lead ">Product Designer</p>
+                      <h1 class="bv" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">Baldemar Villarreal</h1>
+                      <p class="lead" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">Product Designer</p>
                     </div>
                     </div>
                   </div>
@@ -71,13 +72,14 @@
                 
                 <div id="work" class="blockset1">
                 
-                    <div class="green" >
+                    <div class="green" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
                         <img id="tastee" src="images/SquadEdHomepage.png" alt="">
                        
                     </div>
                 
-                   <a href="SquadEd.html"> <div>
-                    <div class="headline yellow">
+                   <a href="SquadEd.html"> 
+                       <div>
+                    <div class="yellow" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
                         <p class="title">Squad Ed</p>
                         <br><br>
                         <p class="summary">Where can I find an affordable e-learning platform?</p>
@@ -90,12 +92,12 @@
                 
 
                 <div  class="blockset2">
-                    <div class="red">
+                    <div class="red" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
                         <img id="DOL" src="images/DOL.png" alt="">
                     </div>
                     
                     <div>
-                    <div class="headline blue">
+                    <div class="blue" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
                        <p class="title">U.S. DOL</p> 
                         <br><br>
                         <p class="summary">How do I find the resources I need?</p>
@@ -108,11 +110,13 @@
                 </div>
 
                 <div class="blockset3">
-                    <div class="yellow2">
+                    <div class="yellow2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
                         
                        <a href="SAFoodBank.html" > <img id="foodbank" src="images/Foodbank.png" alt=""></a>
                     </div>
-                   <a href="SAFoodBank.html" ><div class="headline green2">
+
+                   <a href="SAFoodBank.html" >
+                       <div class="green2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
                        <p class="title"> SA FOOD BANK</p>
                         <br><br>
                         <p class="summary">Where can I access the help I need?</p>
@@ -125,12 +129,12 @@
                 </div>
 
                 <div class="blockset4">
-                    <div class="blue2">
+                    <div class="blue2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="false">
                         <img id="sideprojects" src="images/weightless.jpg" alt="">
                     </div>
 
                     <div>
-                    <div class="headline red2">
+                    <div class="red2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
                       <p class="title">SIDE PROJECTS</p> 
                         <br><br>
                         <p class="summary">What projects do I work on during my free time?</p>
@@ -173,6 +177,11 @@
     </footer>
 
   <script src="js/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
     
 </body>
 
