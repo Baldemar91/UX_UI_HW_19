@@ -265,7 +265,7 @@ main {
 
 
 /*iamge IDs*/
-#tastee{
+#squadedhome{
   width: 85%;
  border-radius: 10px;
 }
@@ -282,6 +282,29 @@ main {
   width: 75%;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 767px) {
+  #squadedhome{
+    width: 100%;
+   border-radius: 10px;
+  }
+  #DOL{
+    width: 100%;
+    border-radius: 10px;
+  }
+  #foodbank{
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  #sideprojects{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+}
+
+
 
 
 /*blockSet1*/
@@ -313,6 +336,7 @@ main {
     padding-right: 20px;
     
   }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -322,6 +346,7 @@ main {
     padding-left: 0;
     padding-right: 0;
   }
+
 }
 
 
