@@ -357,6 +357,7 @@ main {
    display: block;
    position: relative;
    float: right;
+  margin-top: 50px;
   
    
   }
@@ -364,10 +365,13 @@ main {
     text-align: center;
     margin-top: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14px;
-    color:black;
+    font-size: 16px;
+    color:white;
+   
   
   }
+
+
 
 }
 
@@ -380,6 +384,7 @@ main {
    left: -7px;
    height: 100px;
    width: 100px;
+ 
   }
   .view{
     display: none;
@@ -395,7 +400,9 @@ main {
     float: right; 
     height: 100px;
     width: 100px;
+    
   }
+
 }
 
 
@@ -424,6 +431,7 @@ main {
    margin-right: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
 }
 
@@ -464,7 +472,7 @@ main {
    display: block;
    position: relative;
    float: left;
-  
+   margin-top: 50px;
    
   }
 }
@@ -552,7 +560,7 @@ main {
    display: block;
    position: relative;
    float: right;
-   
+   margin-top: 50px;
    
   }
 }
@@ -639,7 +647,7 @@ main {
    display: block;
    position: relative;
    float: left;
-  
+   margin-top: 50px;
    
   }
 }
