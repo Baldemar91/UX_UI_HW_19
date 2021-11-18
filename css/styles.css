@@ -345,7 +345,7 @@ main {
     top: 146px;
     z-index: 2;
     border-radius: 20px;
-    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
+   
 }
 
 
@@ -455,7 +455,7 @@ main {
     top: 150px;
     z-index: 10;
     border-radius: 20px;
-    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
+ 
    
 }
 @media screen and (max-width: 991px) {
@@ -543,7 +543,7 @@ main {
     top: 150px;
     z-index: 1;
     border-radius: 20px;
-    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -630,7 +630,7 @@ main {
     top: 150px;
     z-index: 10;
     border-radius: 20px;
-    filter: drop-shadow(0 0 0.65rem rgba(0, 0, 0, 0.247));
+    
 }
 
 @media screen and (max-width: 991px) {
