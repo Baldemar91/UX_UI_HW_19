@@ -265,7 +265,7 @@ main {
 
 
 /*iamge IDs*/
-#squadedhome{
+#tastee{
   width: 85%;
  border-radius: 10px;
 }
@@ -284,7 +284,7 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-  #squadedhome{
+  #tastee{
     width: 100%;
    border-radius: 10px;
   }
